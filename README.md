@@ -14,8 +14,7 @@ This project applies machine learning to classify small molecules based on their
 
 Quorum sensing (QS) is a key communication system in bacteria, regulating collective behaviors such as biofilm formation and virulence. Disrupting this signaling through **quorum sensing inhibitors (QSIs)** offers a promising anti-virulence strategy, especially for tackling antibiotic-resistant infections.
 
-Quorum sensing inhibitors (QSIs) show promise as therapeutics, but their effects can vary between receptors and compound types. Distinguishing potent inhibitors, weak inhibitors, and activators is key to improving drug selectivity and avoiding unintended activation of QS pathways.
-
+Quorum sensing inhibitors (QSIs) show promise as therapeutics, but inconsistent effects across receptors and compound types remain a barrier to clinical translation. This project addresses this gap by distinguishing potent inhibitors, weak inhibitors, and activators—an essential step toward improving drug selectivity and minimizing unintended QS activation of QS pathways.
 
 ---
 
