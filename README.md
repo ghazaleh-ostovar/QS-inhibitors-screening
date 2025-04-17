@@ -62,7 +62,7 @@ Three classifiers were trained using GridSearchCV and 5-fold cross-validation:
 
 - 🔶 **Best model**: **SVM**, achieving **85% test accuracy** and **0.89 recall** on potent inhibitors
 - 🔸 SVM showed the best balance in distinguishing weak vs potent inhibitors
-- 🔹Random Forest and XGBoost performed well overall but struggled to distinguish between weak and potent inhibitors, potentially in borderline cases.
+- 🔹 Random Forest and XGBoost performed well overall but struggled to distinguish between weak and potent inhibitors, potentially in borderline cases.
 
 ---
 
