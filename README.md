@@ -35,7 +35,7 @@ Quorum sensing inhibitors (QSIs) have therapeutic potential, but variability in 
 
 ---
 
-## 🔍 Feature Selection
+## 🔷 Feature Selection
 
 - Used Random Forest feature importance to select top 20 features:
   - 18 fingerprint bits
@@ -60,9 +60,9 @@ Three classifiers were trained using GridSearchCV and 5-fold cross-validation:
 | Weak Inhibitor (1)  | 0.93      | 0.81   | 0.87     |
 | **Potent Inhibitor (2)** | **0.80** | **0.89** | **0.84**   |
 
-- ✅ **Best model**: **SVM**, achieving **85% test accuracy** and **0.89 recall** on potent inhibitors
-- 🔍 SVM showed the best balance in distinguishing weak vs potent inhibitors
-- RF and XGBoost performed well but struggled to resolve ambiguous (intermediate) cases
+- 🔶 **Best model**: **SVM**, achieving **85% test accuracy** and **0.89 recall** on potent inhibitors
+- 🔸 SVM showed the best balance in distinguishing weak vs potent inhibitors
+- 🔹Random Forest and XGBoost performed well overall but struggled to distinguish between weak and potent inhibitors, potentially in borderline cases.
 
 ---
 
